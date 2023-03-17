@@ -1,3 +1,7 @@
+:root {
+  --main-color: #2eca7f;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -51,7 +55,7 @@ body {
 header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #2eca7f;
+  background-color: var(--main-color);
 }
 
 header .container {
